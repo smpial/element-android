@@ -88,11 +88,11 @@ class OnboardingRobot {
         clickOn(R.id.useCaseOptionOne)
 
         waitUntilViewVisible(withId(R.id.createAccountRoot))
-        clickOn(R.id.editServerButton)
+        /*clickOn(R.id.editServerButton)
         writeTo(R.id.chooseServerInput, homeServerUrl)
         closeSoftKeyboard()
         clickOn(R.id.chooseServerSubmit)
-        waitUntilViewVisible(withId(R.id.createAccountRoot))
+        waitUntilViewVisible(withId(R.id.createAccountRoot))*/
 
         writeTo(R.id.createAccountInput, userId)
         writeTo(R.id.createAccountPasswordInput, password)
@@ -113,11 +113,11 @@ class OnboardingRobot {
         clickOn(R.id.loginSplashAlreadyHaveAccount)
 
         waitUntilViewVisible(withId(R.id.loginRoot))
-        clickOn(R.id.editServerButton)
+        /*clickOn(R.id.editServerButton)
         writeTo(R.id.chooseServerInput, homeServerUrl)
         closeSoftKeyboard()
         clickOn(R.id.chooseServerSubmit)
-        waitUntilViewVisible(withId(R.id.loginRoot))
+        waitUntilViewVisible(withId(R.id.loginRoot))*/
 
         writeTo(R.id.loginInput, userId)
         writeTo(R.id.loginPasswordInput, password)
