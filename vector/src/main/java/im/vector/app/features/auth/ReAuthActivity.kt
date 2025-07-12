@@ -175,7 +175,7 @@ class ReAuthActivity : SimpleFragmentActivity() {
 
     private fun openInCustomTab(ssoUrl: String) {
         openUrlInChromeCustomTab(this, customTabsSession, ssoUrl)
-        val channelOpened = customTabsSession?.requestPostMessageChannel(Uri.parse("https://element.io"))
+        val channelOpened = customTabsSession?.requestPostMessageChannel(Uri.parse("https://chat.klucva.ru"))
         Timber.d("## CustomTab channelOpened: $channelOpened")
     }
 
