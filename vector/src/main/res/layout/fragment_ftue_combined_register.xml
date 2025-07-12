@@ -75,7 +75,7 @@
             app:layout_constraintHeight_percent="0.03"
             app:layout_constraintTop_toBottomOf="@id/createAccountHeaderTitle" />
 
-        <TextView
+        <!--TextView
             android:id="@+id/chooseYourServerHeader"
             style="@style/Widget.Vector.TextView.Caption"
             android:layout_width="0dp"
@@ -87,9 +87,23 @@
             app:layout_constraintBottom_toTopOf="@id/selectedServerName"
             app:layout_constraintEnd_toStartOf="@id/editServerButton"
             app:layout_constraintStart_toStartOf="@id/createAccountGutterStart"
-            app:layout_constraintTop_toBottomOf="@id/titleContentSpacing" />
+            app:layout_constraintTop_toBottomOf="@id/titleContentSpacing" /-->
 
         <TextView
+            android:id="@+id/chooseYourServerHeader"
+            style="@style/Widget.Vector.TextView.Caption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/ftue_auth_create_account_choose_server_header"
+            android:textColor="?vctr_content_secondary"
+            app:layout_constraintBottom_toTopOf="@id/selectedServerName"
+            app:layout_constraintEnd_toStartOf="@id/createAccountGutterEnd"
+            app:layout_constraintStart_toStartOf="@id/createAccountGutterStart"
+            app:layout_constraintTop_toBottomOf="@id/titleContentSpacing" />
+
+        <!--TextView
             android:id="@+id/selectedServerName"
             style="@style/Widget.Vector.TextView.Subtitle"
             android:layout_width="0dp"
@@ -100,9 +114,22 @@
             app:layout_constraintEnd_toStartOf="@id/editServerButton"
             app:layout_constraintStart_toStartOf="@id/createAccountGutterStart"
             app:layout_constraintTop_toBottomOf="@id/chooseYourServerHeader"
+            tools:text="matrix.org" /-->
+
+        <TextView
+            android:id="@+id/selectedServerName"
+            style="@style/Widget.Vector.TextView.Subtitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textColor="?vctr_content_primary"
+            app:layout_constraintBottom_toTopOf="@id/serverSelectionSpacing"
+            app:layout_constraintEnd_toStartOf="@id/createAccountGutterEnd"
+            app:layout_constraintStart_toStartOf="@id/createAccountGutterStart"
+            app:layout_constraintTop_toBottomOf="@id/chooseYourServerHeader"
             tools:text="matrix.org" />
 
-        <Button
+        <!--Button
             android:id="@+id/editServerButton"
             style="@style/Widget.Vector.Button.Outlined"
             android:layout_width="wrap_content"
@@ -114,7 +141,7 @@
             android:textAllCaps="true"
             app:layout_constraintBottom_toBottomOf="@id/selectedServerName"
             app:layout_constraintEnd_toEndOf="@id/createAccountGutterEnd"
-            app:layout_constraintTop_toTopOf="@id/chooseYourServerHeader" />
+            app:layout_constraintTop_toTopOf="@id/chooseYourServerHeader" /-->
 
         <Space
             android:id="@+id/serverSelectionSpacing"
