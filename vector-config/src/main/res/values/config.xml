@@ -4,7 +4,7 @@
     <!-- "app_name" is now defined in build.gradle -->
 
     <!-- server urls -->
-    <string name="matrix_org_server_url" translatable="false">https://chat.klucva.ru</string>
+    <string name="matrix_org_server_url" translatable="false">https://matrix.klucva.ru</string>
 
     <!-- Rageshake configuration -->
     <string name="bug_report_url" translatable="false">https://chat.klucva.ru/bugreports/submit</string>
