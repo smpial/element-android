@@ -7,7 +7,7 @@
 
 package im.vector.app.features.login
 
-const val EMS_LINK = "https://element.io/matrix-services" +
+const val EMS_LINK = "https://chat.klucva.ru/matrix-services" +
         "?utm_source=element-android" +
         "&utm_medium=native" +
         "&utm_campaign=element-android-authentication"
