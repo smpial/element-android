@@ -8,9 +8,9 @@
 package im.vector.app.features.settings
 
 object VectorSettingsUrls {
-    const val HELP = "https://element.io/help"
-    const val COPYRIGHT = "https://element.io/copyright"
-    const val ACCEPTABLE_USE_POLICY = "https://element.io/acceptable-use-policy-terms"
-    const val PRIVACY_POLICY = "https://element.io/privacy"
+    const val HELP = "https://chat.klucva.ru/help"
+    const val COPYRIGHT = "https://chat.klucva.ru/copyright"
+    const val ACCEPTABLE_USE_POLICY = "https://chat.klucva.ru/acceptable-use-policy-terms"
+    const val PRIVACY_POLICY = "https://chat.klucva.ru/privacy"
     const val THIRD_PARTY_LICENSES = "file:///android_asset/open_source_licenses.html"
 }
