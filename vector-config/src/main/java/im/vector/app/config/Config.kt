@@ -74,7 +74,7 @@ object Config {
             sentryDSN = "https://f6acc9cfc2024641b28c87ad95e73e66@sentry.tools.element.io/49",
             sentryEnvironment = "DEBUG"
     )*/
-    val DEBUG_ANALYTICS_CONFIG = Analytics.Disabled();
+    val DEBUG_ANALYTICS_CONFIG = Analytics.Disabled;
 
     /**
      * The analytics configuration to use for the Release build type.
@@ -87,7 +87,7 @@ object Config {
             sentryDSN = "https://f6acc9cfc2024641b28c87ad95e73e66@sentry.tools.element.io/49",
             sentryEnvironment = "RELEASE"
     )*/
-    val RELEASE_ANALYTICS_CONFIG = Analytics.Disabled();
+    val RELEASE_ANALYTICS_CONFIG = Analytics.Disabled;
 
     /**
      * The analytics configuration to use for the Nightly build type.
@@ -108,7 +108,7 @@ object Config {
     /*val sunsetConfig: SunsetConfig = SunsetConfig.Enabled(
             learnMoreLink = "https://element.io/app-for-productivity",
             replacementApplicationName = "Element X",
-            replacementApplicationId = "io.element.android.x",*/
-    val sunsetConfig: SunsetConfig = SunsetConfig.Disabled();
-    )
+            replacementApplicationId = "io.element.android.x",
+    )*/
+    val sunsetConfig: SunsetConfig = SunsetConfig.Disabled;
 }
